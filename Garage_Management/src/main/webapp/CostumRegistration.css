@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#form3Example1cg{
+	width: 48%;
+}
+
+#form3Example4cg{
+	width: 48%;
+}
+
+.form-outline{
+	justify-content: space-between;
+}
+.maintask{
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  width: 100%;
+  /*height: 100vh;*/
+  margin-left: 300px;
+  
+}
+.text-uppercase
+{ color:black;
+}
+.card
+{
+	align-items:center;
+	justify-content:center;
+}

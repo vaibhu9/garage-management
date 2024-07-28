@@ -1,0 +1,622 @@
+@charset "UTF-8";
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+  background-image: url();
+}
+#navbarC img 
+{
+   width: 100px;
+   
+  color: red;
+}
+#navbarC span
+{
+  color:black;
+  font-size: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 80px;  
+    margin-right: 30%;
+    /* margin-top: 1%; */
+     
+  }
+  
+  
+  .carousel-caption h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     margin-top: 5%; 
+  }
+  .carousel-caption h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     margin-top: 10px; 
+     
+  }
+  .carousel-caption span
+  {
+    color:red;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    /* margin-bottom: 1%; */
+    margin-left: 4%;
+    font-size: 18px;
+    line-height: 1.9;
+    
+  }
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    margin-top: 20px !important; 
+}
+  
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  #navbarSupportedContent ul li a 
+  {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+  }
+  .button a
+  {
+    width: 20%;
+    padding:10px;
+    border-radius:10px;
+    
+    box-shadow:0 0 10px white;
+	  background: rgba(255,255,255,0.0);
+  
+    color: white;
+    font-size: 20px;
+
+  }
+  .button
+  {
+    margin-top:5%;
+    margin-right:5%;
+  }
+  /* About Us Css */
+ 
+  #about
+  { 
+    border:2px solid black;
+    border-radius:10px;
+    width: 100%;
+    
+  
+  }
+  
+  .container h1
+{
+  text-align: center;
+  margin-top: 2%;
+  color:red;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+ .container span
+{
+  color: black;
+}
+#ab img
+{  border:1px solid red;
+   width: 100%;
+   margin-top:8%;
+   margin-right:5%;
+  
+}
+#db
+{
+  
+  margin-left:1%;
+}
+#db h2
+{
+  text-align: center;
+  margin-top: 2%;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+#db span
+{
+  text-align: center;
+  margin-top: 2%;
+  color:red;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+#db h3
+{
+  text-align: center;
+  margin-top: 2%;
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+  /* service Css */
+  .wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container-fostrap {
+    display: table-cell;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  h1.heading {
+    text-align: center;
+    margin-top: 2%;
+    color:red;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .heading span
+  {
+    text-align: center;
+  margin-top: 2%;
+  color:black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  @media (min-width: 600px) {
+    h1.heading {
+      font-size: 3.55em;
+    }
+  }
+  @media (min-width: 760px) {
+    h1.heading {
+      font-size: 3.05em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1.heading {
+      font-size: 3.25em;
+      margin: 0 0 0.3em;
+    }
+  } 
+  .card {
+    display: block; 
+      margin-bottom: 20px;
+      line-height: 1.42857143;
+      background-color: #fff;
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+      transition: box-shadow .25s; 
+  }
+  .card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,2),0 6px 20px 0 rgba(0,0,0,5);
+  }
+  .img-card {
+    width: 100%;
+    height:200px;
+    border-top-left-radius:2px;
+    border-radius:10px;
+    display:block;
+      overflow: hidden;
+  }
+  .img-card img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover; 
+    transition: all .25s ease;
+  } 
+  .card-content {
+    padding:15px;
+    text-align:left;
+  }
+  .card-title {
+    margin-top:0px;
+    font-weight: 700;
+    font-size: 1.65em;
+  }
+  .card-title a {
+    color: #000;
+    text-decoration: none !important;
+  }
+  .card-read-more {
+    border-top: 1px solid #D4D4D4;
+
+  }
+  .card-read-more a {
+    text-decoration: none !important;
+    padding:10px;
+    font-weight:600;
+    text-transform: uppercase;
+    color:white;
+    background-color: black;
+  }
+  .img-card img:hover
+  {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+  }
+
+      /* out teamCss */
+   
+      /* Our Rivew */
+      #Review
+      {
+        display: flex;
+        width: 75%;
+        margin-left:12%;
+      }
+      
+      .textR h2
+      {    text-align: center;
+        margin-top: 2%;
+        color:red;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+           
+        
+           
+      }
+      .textR span
+      {
+         color:black;
+         font-size:40px;
+         
+      }
+      .testimonial-card .card-up {
+        
+        height: 120px;
+        overflow: hidden;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+      }
+      .testimonial-card .avatar {
+        width: 110px;
+        margin-top: -60px;
+        overflow: hidden;
+        border: 3px solid #fff;
+        border-radius: 50%;
+      }
+      .fa-solid
+      {
+        color: red;
+      }
+
+      /* contact form Css */
+
+      .Contact h1
+      {
+        text-align: center;
+        margin-top: 1%;
+        color:red;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+           
+      }
+      .Contact span
+      {
+        text-align: center;
+        margin-top: 1%;
+        color:black;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+           
+      }
+      
+      .container-contact {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh; 
+        background: url('imge/blackcar@.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        border-radius:10px;
+    }
+    
+    .Section {
+        width: 400px;
+        color: black;
+        padding: 15px;
+        margin-top: 15%;
+        margin-right: 20%;
+        border: 2px solid white;
+        border-radius: 10px;
+        display: block;
+        box-shadow: 0 0 10px white;
+        background: rgba(255, 255, 255, 0.0);
+    }
+    
+    .Section .input-box {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 30px 0;
+    }
+    
+    .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .input-box input::placeholder {
+        color: white;
+        font-size: 15px;
+    }
+    
+    input[type="text"] {
+        color: white;
+        font-size: 20px;
+    }
+    
+    input[type="password"] {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .input-box i {
+        position: absolute;
+        left: 20px;
+        transform: translateY(-50%);
+        /* for icon margin top */
+        font-size: 20px;
+        margin-top: 20px;
+        color: white;
+    }
+    
+    button {
+        display: block;
+        margin: 50px auto;
+        width: fit-content;
+        border: 1px solid white;
+        padding: 14px 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        font-size: 20px;
+        background: black;
+        color: white;
+    }
+    
+
+    /* footer */
+
+    .text-center span
+    {
+      font-size:25px;
+      font-weight: bold;
+      color:white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .text-center p
+    {
+      font-size:25px;
+      font-weight: bold;
+      color:red;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    #footer
+    { border-radius: 10px;
+
+      background-color: black;
+    }
+
+    /* media query */
+    @media only screen and (max-width: 1200px) {
+      /* Adjust carousel item height */
+      .carousel-item {
+        width: auto;
+        height: auto; /* Adjust height as needed for small screens */
+        min-height: 300px; /* Example minimum height */
+        
+      }
+    
+      /* Adjust carousel caption position */
+      .carousel-caption {
+        bottom: 40px; /* Example bottom spacing */
+        margin-right: 0; /* Remove right margin */
+        text-align: center; /* Center align caption text */
+      }
+    
+      /* Adjust caption text size */
+      .carousel-caption h1 {
+        font-size: 50px; /* Example font size */
+      }
+    
+      .carousel-caption h3 {
+        font-size: 30px; /* Example font size */
+      }
+    
+      .carousel-caption p {
+        width: 90%; /* Example width */
+        margin-left: auto; /* Center align paragraph text */
+        margin-right: auto; /* Center align paragraph text */
+        font-size: 16px; /* Example font size */
+      }
+    
+      /* Adjust button size */
+      .button a {
+        width: auto; /* Example button width */
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 18px; /* Example font size */
+      }
+      .card-title {
+        margin-top:0px;
+        font-weight: 700;
+        font-size: 20px;
+      }
+    }
+    @media only screen and (max-width: 886px) {
+      .carousel-item {
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+      }
+    
+      .carousel-caption {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 50px;
+      }
+    
+      .carousel-caption h1 {
+        font-size: 40px;
+        margin-top: 50px;
+      }
+    
+      .carousel-caption h3 {
+        font-size: 20px;
+      }
+    
+      .carousel-caption p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+      }
+    
+      .button a {
+        width: auto;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+      .card-title {
+        margin-top:0px;
+        font-weight: 700;
+        font-size: 15px;
+      }
+      
+    }
+   
+    
+    @media only screen and (max-width: 852px) {
+      .carousel-item {
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+      }
+    
+      .carousel-caption {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 50px;
+      }
+    
+      .carousel-caption h1 {
+        font-size: 25px;
+        
+      }
+    
+      .carousel-caption h3 {
+        font-size: 20px;
+      }
+    
+      .carousel-caption p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+      }
+    
+      .button a {
+        width: auto;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+      
+    }

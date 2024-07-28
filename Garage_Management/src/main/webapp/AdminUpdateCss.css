@@ -1,0 +1,58 @@
+@charset "UTF-8";
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#form3Example1cg{
+	width: 48%;
+	border-radius:10px;
+	border-color:black;
+	color:black;
+}
+
+#form3Example4cg{
+	width: 48%;
+	border-radius:10px;
+	border-color:black;
+	color:black;
+}
+#form5Example1cga
+{
+	width:100%;
+	border-radius:10px;
+	border-color:black;
+	color:black;
+	
+}
+
+.form-outline{
+	justify-content: space-between;
+}
+.maintask{
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  width: 100%;
+  height: 100vh;
+  margin-left: 300px;
+  
+}
+.text-uppercase 
+{ color:black;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-uppercase span
+{ color:red;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card
+{
+	align-items:center;
+	justify-content:center;
+	border:4px solid blue;
+}
